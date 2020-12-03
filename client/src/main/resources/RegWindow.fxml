@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="320.0" prefWidth="275.0"
+            xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.RegController">
+
+
+    <Button fx:id="signInBtn" layoutX="38.0" layoutY="251.0" mnemonicParsing="false" onAction="#registration" text="Sign up" />
+    <Button fx:id="cancelBtn" layoutX="166.0" layoutY="251.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+
+    <PasswordField fx:id="passwordField" layoutX="67.0" layoutY="131.0" onAction="#registration"
+                   prefHeight="37.0" prefWidth="140.0" promptText="password" AnchorPane.bottomAnchor="152.0"
+                   AnchorPane.leftAnchor="67.0" AnchorPane.rightAnchor="68.0" AnchorPane.topAnchor="131.0" />
+
+    <TextField fx:id="login" layoutX="67.0" layoutY="78.0" onAction="#registration" prefHeight="37.0"
+               prefWidth="140.0" promptText="login" AnchorPane.bottomAnchor="205.0" AnchorPane.leftAnchor="67.0"
+               AnchorPane.rightAnchor="68.0" AnchorPane.topAnchor="78.0" />
+   <TextField fx:id="nick" layoutX="68.0" layoutY="183.0" prefHeight="39.0" prefWidth="140.0" promptText="nick" />
+
+    <Label fx:id="label" layoutX="112.0" layoutY="34.0" maxWidth="76.0" prefHeight="26.0"
+           prefWidth="76.0" text="SIGN IN" textAlignment="CENTER" textFill="WHITE" />
+
+
+</AnchorPane>

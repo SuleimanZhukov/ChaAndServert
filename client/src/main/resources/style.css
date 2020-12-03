@@ -1,0 +1,38 @@
+.text-field {
+    -fx-control-inner-background: #3b4d58;
+    -fx-border-color: #263239;
+    -fx-text-fill: white;
+    -fx-highlight-text-fill: #263239;
+    -fx-highlight-fill: #50b2e3;
+}
+
+.root {
+    -fx-background-color: #263239;
+    -fx-font-size: 16;
+}
+
+#textArea {
+    -fx-control-inner-background: #263239;
+    -fx-border-color: #263239;
+    -fx-text-fill: white;
+    -fx-highlight-text-fill: #263239;
+    -fx-highlight-fill: #50b2e3;
+}
+
+#imageArrow:hover {
+    -fx-cursor: hand;
+}
+
+#label {
+    -fx-max-width:50;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: #3b4d58;
+}
+
+.button:hover {
+    -fx-background-color: #3b6d68;
+    -fx-cursor: hand;
+}
